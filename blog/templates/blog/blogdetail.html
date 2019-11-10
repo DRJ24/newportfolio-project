@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+    #blogimage {
+      width: 300px;
+    }
+  </style>
+
+
+  <body>
+    <div class="container">
+
+
+    <img src="{{ detailblog.image.url }}" alt="" id="blogimage">
+    <h1>{{ detailblog.title }}</h1>
+    <p>{{ detailblog.body }}</p>
+    <p>{{ detailblog.pub_date }}</p>
+
+        </div>
+
+  </body>
+</html>
